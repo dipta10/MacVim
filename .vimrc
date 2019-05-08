@@ -1,4 +1,6 @@
 set runtimepath+=~/.vim_runtime
+"Pathogen
+execute pathogen#infect()
 
 "auto-reloading-a-file-in-vim-as-soon-as-it-changes-on-disk
 set autoread | au CursorHold * checktime | call feedkeys("lh")
@@ -151,8 +153,6 @@ else " no gui
   " I have no idea of the name of Ctrl-Space elsewhere
   endif
 endif
-"Pathogen
-execute pathogen#infect()
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
