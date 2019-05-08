@@ -36,7 +36,7 @@ Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-Copy the `.vim_runtime` folder into root `~` folder.
+Copy the `vim_runtime` folder into root `~` folder and rename it to`.vim_runtime`.
 
 Now inside Vim:
 ```
