@@ -104,3 +104,7 @@ cd include
 vim stdc++.h
 ```
 Copy this [content](https://gist.github.com/eduarc/6022859). Comment out line no 55.
+
+### PowerLine font:
+Download [fonts](https://github.com/powerline/fonts) and install Ubuntu PowerPowerlineFont. Preference -> Profile -> text -> Change Font -> Select Ubuntu Powerline.
+![](imgs/2019-05-08-22-02-24.png)
