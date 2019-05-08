@@ -77,6 +77,18 @@ Plugin 'honza/vim-snippets'
 " Vundle
 Plugin 'jacoborus/tender.vim'
 
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-commentary'
+Plugin 'jerrymarino/iCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'tomtom/tlib_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-sensible'
+Plugin 'garbas/vim-snipmate'
+
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 

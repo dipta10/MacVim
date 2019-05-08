@@ -36,11 +36,19 @@ Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-Copy the `vim_runtime` folder into root `~` folder and rename it to`.vim_runtime`.
+Copy the `.vim_runtime` folder into root `~` folder.
 
 Now inside Vim:
 ```
 :PluginInstall
+```
+Now You might end up with and error. You'll have to install [YouCompleteMe](https://github.com/Valloric/YouCompleteMe). (Assuming You've brew already installed)
+```
+brew install cmake
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+./install.py --java-completer
+./install.py --all
 ```
 Source the bashrc file:
 ```
