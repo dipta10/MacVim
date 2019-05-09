@@ -91,6 +91,12 @@ Kill all the session (if any):
 pkill -f tmux
 ```
 
+Create Symblink:
+
+```
+ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+```
+
 Now just clone the repository
 
 ```
@@ -102,12 +108,6 @@ Remove all the files inside the `plugins` directory. Now install [tpm](https://g
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
-```
-
-Create Symblink:
-
-```
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 ```
 
 Now, hit `prefix + I` to fetch all the plugins and source it. Try `prefix + U` if it doesn't work. In my case prefix is `ctrl + a`.
