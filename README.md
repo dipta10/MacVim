@@ -91,12 +91,6 @@ Kill all the session (if any):
 pkill -f tmux
 ```
 
-Create Symblink:
-
-```
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
-```
-
 Now just clone the repository
 
 ```
@@ -104,6 +98,12 @@ git clone https://github.com/dipta10/MacTmuxSettings.git ~/.tmux
 ```
 
 Remove all the files inside the `plugins` directory. Now install [tpm](https://github.com/tmux-plugins/tpm).
+
+Create Symblink:
+
+```
+ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+```
 
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
