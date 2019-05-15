@@ -77,9 +77,9 @@ Plugin 'honza/vim-snippets'
 " Vundle
 Plugin 'jacoborus/tender.vim'
 
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-commentary'
-Plugin 'jerrymarino/iCompleteMe'
+"Plugin 'jerrymarino/iCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -142,9 +142,9 @@ set mouse=a
 "
 " Theme
 " If you have vim >=8.0 or Neovim >= 0.1.5
-if (has("termguicolors"))
- set termguicolors
-endif
+"if (has("termguicolors"))
+" set termguicolors
+"endif
 
 " For Neovim 0.1.3 and 0.1.4
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
