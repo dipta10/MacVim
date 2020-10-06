@@ -1,0 +1,53 @@
+" location of the file = %HOMEPATH%\_ideavimrc | c:/users/dipta10/_ideavimrc
+
+noremap :W :w
+
+" scrolling
+nnoremap <C-e> 10<C-e>
+nnoremap <C-y> 10<C-y>
+vnoremap <C-e> 10<C-e>
+vnoremap <C-y> 10<C-y>
+
+set clipboard=unnamed
+
+set number
+set relativenumber
+
+" make C-A leader key so that <C-W>s will split
+let mapleader = "<C-A>"
+map <leader>r :bufdo e!<CR>
+nnoremap <C-A> <C-W>
+
+" split control
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+imap <C-K> <Esc><C-W><C-K>
+imap <C-L> <Esc><C-W><C-L>
+imap <C-H> <Esc><C-W><C-H>
+
+
+" change split sizes
+nnoremap <C-Right> 2<C-W><
+nnoremap <C-Left> 2<C-W>>
+nnoremap <C-Up> 2<C-W>+
+nnoremap <C-Down> 2<C-W>-
+
+
+
+" no sure if it works
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+set belloff=all
+
+
+" change tabs
+nnoremap <C-n> gt
+nnoremap <C-b> gT
+tnoremap <C-n> gt
+tnoremap <C-b> gT
+
+
+" Close a split window in Vim without resizing other windows
+set noequalalways
